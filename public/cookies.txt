@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+gene.eu	TRUE	/	FALSE	1999999999	crumb	BR9rLnfmuP2LMzllYzM2NTYwODAwNmJjZmRiNTY4OTU4NjZkNzEw
+www.irishaidfellowships.ie	TRUE	/	FALSE	1999999999	SSESS0daebfb78ae5cf254452b85058b74979	deleted
+.www.irishaidfellowships.ie	TRUE	/	FALSE	1999999999	SameSite	None
+irishaidfellowships.ddev.site	TRUE	/	FALSE	1999999999	SSESS33a857d7d7e3a1b53e44dfebdccafa14	deleted
+.irishaidfellowships.ddev.site	TRUE	/	FALSE	1999999999	SameSite	None
+
