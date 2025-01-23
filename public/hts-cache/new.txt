@@ -1,5 +1,5 @@
 date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-07:34:29	31614/31614	U--MCZ	200	updated ('OK')	text/html	date:Wed,%2022%20Jan%202025%2006:34:28%20GMT	https://irishaidfellowships.ddev.site/	/home/dan/weby/static/iaf/index-2.html	(from )
+07:34:29	31614/31614	U--MCZ	200	updated ('OK')	text/html	date:Wed,%2022%20Jan%202025%2006:34:28%20GMT	https://irishaidfellowships.ddev.site/	/home/dan/weby/static/iaf/index.html	(from )
 07:34:29	744/744	U-----	200	untouched ('OK')	text/plain	etag:W/%22678e20c4-88d%22	https://irishaidfellowships.ddev.site/robots.txt		(from )
 07:34:29	6375/6375	---MCZ	200	added ('OK')	text/javascript	etag:W/%22678e20c4-18e7%22	https://irishaidfellowships.ddev.site/sites/all/modules/contrib/google_analytics/googleanalytics.js?sqg85b	/home/dan/weby/static/iaf/sites/all/modules/contrib/google_analytics/googleanalytics4868.js	(from https://irishaidfellowships.ddev.site/)
 07:34:29	439/439	U--MC-	200	updated ('OK')	text/css	date:Wed,%2022%20Jan%202025%2006:34:29%20GMT	https://fonts.googleapis.com/css?family=Droid+Serif:700,400italic&display=swap	/home/dan/weby/static/iaf/csse6d9.css	(from https://irishaidfellowships.ddev.site/)

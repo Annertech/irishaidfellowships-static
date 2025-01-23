@@ -1,6 +1,6 @@
 date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
 07:32:24	744/744	---MCZ	200	added ('OK')	text/plain	etag:W/%22678e20c4-88d%22	https://irishaidfellowships.ddev.site/robots.txt		(from )
-07:32:25	31767/31767	---MCZ	200	added ('OK')	text/html	date:Wed,%2022%20Jan%202025%2006:32:24%20GMT	https://irishaidfellowships.ddev.site/	/home/dan/weby/static/iaf/index-2.html	(from )
+07:32:25	31767/31767	---MCZ	200	added ('OK')	text/html	date:Wed,%2022%20Jan%202025%2006:32:24%20GMT	https://irishaidfellowships.ddev.site/	/home/dan/weby/static/iaf/index.html	(from )
 07:32:25	15086/15086	---MCZ	200	added ('OK')	image/x-icon	etag:W/%22678e20c4-3aee%22	https://irishaidfellowships.ddev.site/sites/all/themes/custom/weather/favicon.ico	/home/dan/weby/static/iaf/sites/all/themes/custom/weather/favicon.ico	(from https://irishaidfellowships.ddev.site/)
 07:32:26	5428/5428	---MCZ	200	added ('OK')	text/css	etag:W/%22678e20c4-1534%22	https://irishaidfellowships.ddev.site/modules/system/system.base.css?sqg85b	/home/dan/weby/static/iaf/modules/system/system.base4868.css	(from https://irishaidfellowships.ddev.site/)
 07:32:27	1036/1036	---MCZ	200	added ('OK')	text/css	etag:W/%22678e20c4-40c%22	https://irishaidfellowships.ddev.site/modules/book/book.css?sqg85b	/home/dan/weby/static/iaf/modules/book/book4868.css	(from https://irishaidfellowships.ddev.site/)
