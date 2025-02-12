@@ -1,5 +1,5 @@
--q -%i -w https://www.irishaidfellowships.ie -O "/home/dan/weby/static/iaf" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u
-File generated automatically on Thu, 23 Jan 2025 14:05:07, do NOT edit
+-q -%i -w https://irishaidfellowships.ddev.site -O "/home/dan/weby/static/iaf3" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u
+File generated automatically on Wed, 12 Feb 2025 18:56:31, do NOT edit
 
 To update a mirror, just launch httrack without any parameters
 The existing cache will be used (and modified)
