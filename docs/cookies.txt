@@ -1,4 +1,6 @@
 # HTTrack Website Copier Cookie File
 # This file format is compatible with Netscape cookies
-gene.eu	TRUE	/	FALSE	1999999999	crumb	BdJk22JjsIYHMzQ3MWI3NGFjYTIzNmQ5ODg2ZDA4YWM0YTlkNmZm
+.facebook.com	TRUE	/	FALSE	1999999999	sb	neKsZ7GGHbgEuL8JlBFSfsKa
+.facebook.com	TRUE	/	FALSE	1999999999	datr	kOOsZ9gAeotoHBYWAga493GN
+gene.eu	TRUE	/	FALSE	1999999999	crumb	BZwN5IDnD1XIMWM5MDU1NWNhYTU5NThmMmYzMDRkYTEyYjQyMWIz
 
