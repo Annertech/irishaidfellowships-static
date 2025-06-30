@@ -186,7 +186,7 @@ if (document.cookie.split(';').some(
 <div class="field field-name-field-eligible-courses field-type-text-long field-label-above">
       <div class="field-label">Eligible Courses:&nbsp;</div>
     <div class="field-items">
-          <div class="field-item even"><p>Eligible courses are in areas such as agriculture, health, education, human rights, computer science, engineering, business and more, and are listed in a <a href="../sites/default/files/are-you-eligible/ireland_fellows_programme_directory_of_programmes_2025-26_1.pdf">Directory of Eligible Programmes</a>.</p>
+          <div class="field-item even"><p>Eligible courses are in areas such as agriculture, health, education, human rights, computer science, engineering, business and more, and are listed in a <a href="../sites/default/files/are-you-eligible/ireland_fellows_programme_directory_of_programmes_2026-27.pdf">Directory of Eligible Programmes</a>.</p>
 </div>
       </div>
 </div>
@@ -198,7 +198,7 @@ if (document.cookie.split(';').some(
   <div class="content">
     <div class="field field-name-field-heading field-type-text field-label-hidden">
     <div class="field-items">
-          <div class="field-item even">Applications for the academic year 2025-26 are now closed.</div>
+          <div class="field-item even">Applications for the academic year 2026-27 are now open.</div>
       </div>
 </div>
 <div class="field field-name-field-content field-type-text-long field-label-hidden">
@@ -228,7 +228,7 @@ if (document.cookie.split(';').some(
 <li>Not already hold a qualification at master’s level or higher. Not currently undertaking a programme at master’s level or higher, or be due to start a programme at master’s level or higher in the academic year 2023/24.</li>
 <li>Be applying to commence a new programme at master’s level in Ireland no sooner than August 2024.</li>
 <li>Be able to demonstrate the following: leadership abilities and aspirations; a commitment to the achievement of the SDGs within your own country; and a commitment to contribute to building positive relationships with Ireland.</li>
-<li>Have identified and selected three programmes <strong>relevant to your academic and professional background </strong>from the <a href="../sites/default/files/are-you-eligible/ireland_fellows_programme_directory_of_programmes_2025-26_1.pdf"><strong>Directory of Eligible Programmes</strong></a>.</li>
+<li>Have identified and selected three programmes <strong>relevant to your academic and professional background </strong>from the <a href="../sites/default/files/are-you-eligible/ireland_fellows_programme_directory_of_programmes_2026-27.pdf"><strong>Directory of Eligible Programmes</strong></a>.</li>
 <li>Have a clear understanding of the academic and English language proficiencies required for all programmes chosen.</li>
 <li>Must not have applied to the Ireland Fellows Programme on more than one previous occasion.</li>
 <li>Be in a position to take up the Fellowship in the academic year 2024/2025.</li>
@@ -253,8 +253,8 @@ if (document.cookie.split(';').some(
   <label><input type="checkbox" class="i-am-eligible-checkbox" name="i-am-eligible-checkbox">I meet all eligibility requirements listed above. Please show additional information.</input></label>
   <button class="i-am-eligible-button" id="i-am-eligible-button">Show documents</button>
   <div class="field-items i-am-eligible-items">
-          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="../modules/file/icons/application-pdf.png" /> <a href="../sites/default/files/are-you-eligible/ireland_fellows_programme_directory_of_programmes_2025-26_1.pdf" type="application/pdf; length=2067691" title="ireland_fellows_programme_directory_of_programmes_2025-26.pdf">Ireland Fellows Programme Directory of Programmes 2025-26</a></span></div>
-          <div class="field-item odd"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="../modules/file/icons/application-pdf.png" /> <a href="../sites/default/files/are-you-eligible/kaf_programme_africa_2025-26_stage_1_guidance_note.pdf" type="application/pdf; length=575298" title="kaf_programme_africa_2025-26_stage_1_guidance_note.pdf">Kadar Asmal Fellowship Programme 2025-26 Stage 1 Guidance Note</a></span></div>
+          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="../modules/file/icons/application-pdf.png" /> <a href="../sites/default/files/are-you-eligible/ireland_fellows_programme_directory_of_programmes_2026-27.pdf" type="application/pdf; length=2067691" title="ireland_fellows_programme_directory_of_programmes_2026-27.pdf">Ireland Fellows Programme Directory of Programmes 2026-27</a></span></div>
+          <div class="field-item odd"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="../modules/file/icons/application-pdf.png" /> <a href="../sites/default/files/are-you-eligible/kader_asmal_fellowship_programme_2026-27_Stage_1_guidance_note.pdf" type="application/pdf; length=575298" title="kader_asmal_fellowship_programme_2026-27_Stage_1_guidance_note.pdf">Kadar Asmal Fellowship Programme 2026-27 Stage 1 Guidance Note</a></span></div>
         <div class="i-am-eligible-border"></div>
   </div>
 </div>
@@ -411,5 +411,24 @@ if (document.cookie.split(';').some(
     <p class="left">&copy; 2025 Irish Aid</p>
   </div>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const applicationStatusElement = document.querySelector('.paragraphs-item-strand-application-status .field-name-field-heading .field-item');
+    if (applicationStatusElement) {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      const openDate = new Date(2025, 5, 30); // 30 June 2025 (month is 0-indexed)
+      const closeDate = new Date(2025, 6, 26); // 26 July 2025 (month is 0-indexed)
+ 
+      if (today < openDate) {
+        applicationStatusElement.innerHTML = 'Applications for the academic year 2026-27 will open on 30 June.';
+      } else if (today < closeDate) {
+        applicationStatusElement.innerHTML = 'Applications for the academic year 2026-27 are now open!';
+      } else {
+        applicationStatusElement.innerHTML = 'Applications for the academic year 2026-27 are now closed.';
+      }
+    }
+  });
+</script>
   </body>
 </html>
