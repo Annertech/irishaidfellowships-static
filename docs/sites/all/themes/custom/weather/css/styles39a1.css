@@ -2314,7 +2314,7 @@ tr.selected td {
   background: #c4d0da;
   box-sizing: border-box;
   margin-top: 28px;
-  padding: 28px 28px 1px;
+  padding: 28px 28px 15px;
 }
 /* line 43, ../sass/components/content-types/_strand.scss */
 .node-strand .paragraphs-item-strand-application-status .field-name-field-heading {
