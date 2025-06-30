@@ -423,5 +423,24 @@ if (document.cookie.split(';').some(
     <p class="left">&copy; 2025 Irish Aid</p>
   </div>
 </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const applicationStatusElement = document.querySelector('.paragraphs-item-strand-application-status .field-name-field-heading .field-item');
+      if (applicationStatusElement) {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const openDate = new Date(2025, 5, 30); // 30 June 2025 (month is 0-indexed)
+        const closeDate = new Date(2025, 6, 26); // 26 July 2025 (month is 0-indexed)
+  
+        if (today < openDate) {
+          applicationStatusElement.innerHTML = 'Applications for the academic year 2026-27 will open on 30 June.';
+        } else if (today < closeDate) {
+          applicationStatusElement.innerHTML = 'Applications for the academic year 2026-27 are now open!';
+        } else {
+          applicationStatusElement.innerHTML = 'Applications for the academic year 2026-27 are now closed.';
+        }
+      }
+    });
+  </script>
   </body>
 </html>
