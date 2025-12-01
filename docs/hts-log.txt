@@ -1,153 +1,125 @@
-HTTrack3.49-5 launched on Wed, 12 Feb 2025 18:56:31 at https://irishaidfellowships.ddev.site +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
-(webhttrack -q -%i -w https://irishaidfellowships.ddev.site -O "/home/dan/weby/static/iaf3" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F  +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+HTTrack3.49-5 launched on Thu, 27 Nov 2025 11:47:25 at irishaidfellowships.ddev.site +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -iC2 irishaidfellowships.ddev.site -O "/home/dan/weby/static/iaf2" -n -%P -N100 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-19:08:13	Warning: 	Moved Permanently for scontent.xx.fbcdn.net/robots.txt
-19:08:13	Warning: 	Redirected link is identical because of 'URL Hack' option: scontent.xx.fbcdn.net/robots.txt and https://scontent.xx.fbcdn.net/robots.txt
-19:08:13	Warning: 	Warning moved treated for scontent.xx.fbcdn.net/robots.txt (real one is https://scontent.xx.fbcdn.net/robots.txt)
-19:08:14	Warning: 	Moved Permanently for scontent.xx.fbcdn.net/
-19:08:14	Warning: 	Redirected link is identical because of 'URL Hack' option: scontent.xx.fbcdn.net/ and https://scontent.xx.fbcdn.net/
-19:08:14	Warning: 	File has moved from scontent.xx.fbcdn.net/ to https://scontent.xx.fbcdn.net/
-19:08:15	Warning: 	Moved Permanently for video.xx.fbcdn.net/robots.txt
-19:08:15	Warning: 	Redirected link is identical because of 'URL Hack' option: video.xx.fbcdn.net/robots.txt and https://video.xx.fbcdn.net/robots.txt
-19:08:15	Warning: 	Warning moved treated for video.xx.fbcdn.net/robots.txt (real one is https://video.xx.fbcdn.net/robots.txt)
-19:08:15	Warning: 	Moved Permanently for video.xx.fbcdn.net/
-19:08:15	Warning: 	Redirected link is identical because of 'URL Hack' option: video.xx.fbcdn.net/ and https://video.xx.fbcdn.net/
-19:08:15	Warning: 	File has moved from video.xx.fbcdn.net/ to https://video.xx.fbcdn.net/
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/UBXxML (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/37aIUf (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/Ap3mkj (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/wMCsM7 (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/aN4Lw8 (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/bDlltS (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/GG03UK (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/YfajRO (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/VPNbRL (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/o305YZ (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/m5Dkqb (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/ZLKD9y (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/q9t3z5 (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/Zw276C (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/z1Ko1K (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:18	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/iWie9Q (from https://www.facebook.com/TheAustralian.com.au/)
-19:14:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://irishaidfellowships.ddev.site/sites/all/modules/contrib/jquery_update/replace/jquery/1.12/jquery.min.js?v=1.12.4
-19:14:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://irishaidfellowships.ddev.site/misc/jquery-extend-3.4.0.js?v=1.12.4
-19:14:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://irishaidfellowships.ddev.site/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.12.4
-19:14:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://irishaidfellowships.ddev.site/misc/drupal.js?srkzjb
-19:14:36	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://irishaidfellowships.ddev.site/sites/all/libraries/flexslider/jquery.flexslider-min.js?srkzjb
-19:17:33	Warning: 	HTML file (1199 bytes) retransferred due to lack of cache: https://www.facebook.com/data/manifest/
-19:17:45	Warning: 	HTML file (24233 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/linny-kachama
-19:17:50	Warning: 	HTML file (23449 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/elisa-castrillon-palacio
-19:18:04	Warning: 	HTML file (24060 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/dismas-ndayikengurukiye-0
-19:18:45	Warning: 	HTML file (33608 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/strands/ireland-fellows-programme-asia
-19:19:04	Warning: 	HTML file (37668 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/casement-fellowship
-19:19:23	Warning: 	HTML file (41638 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/strands/ireland-fellows-programme-latin-america
-19:19:42	Warning: 	HTML file (38111 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/strands/seán-macbride-fellowship
-19:19:57	Warning: 	HTML file (25762 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/joanne-muchai
-19:20:47	Warning: 	HTML file (23317 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/dr-belaynesh-yifru
-19:20:55	Warning: 	HTML file (26704 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/victor-makasa
-19:21:14	Warning: 	HTML file (24959 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/eiman-fadul
-19:21:28	Warning: 	HTML file (25680 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/dr-zubair-kabir
-19:21:51	Warning: 	HTML file (27496 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/aseel-marabeh
-19:21:58	Warning: 	HTML file (25439 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/pov-pheung
-19:22:17	Warning: 	HTML file (26648 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/mohamud-mohamed-ismail
-19:22:44	Warning: 	HTML file (24131 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/solomon-belete-tekola
-19:23:34	Error: 	"Not Found" (404) at link https://irishaidfellowships.ddev.site/sites/default/files/are-you-eligible/ireland_fellows_programme_asia_2024-25_stage_1_guidance_note.pdf (from https://irishaidfellowships.ddev.site/strands/ireland-fellows-programme-asia)
-19:23:34	Warning: 	HTML file (24462 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/ben-koryang-baatom
-19:23:52	Error: 	"Not Found" (404) at link https://www.irishaidfellowships.ie/sites/default/files/images/paragraphs/image-and-or-text-bundle/37_edit.png (from https://irishaidfellowships.ddev.site/strands/kader-asmal-fellowship)
-19:23:52	Warning: 	HTML file (24279 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/justine-van-rooyen
-19:24:01	Warning: 	HTML file (30378 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/marie-krestaline-juliana-dedans
-19:24:28	Warning: 	HTML file (22549 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/dismas-ndayikengurukiye
-19:24:53	Warning: 	HTML file (24900 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-7/uganda-irish-alumni-association
-19:25:04	Warning: 	HTML file (25930 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/euclinton-ancheld%C3%A1sio-foliche
-19:25:13	Error: 	"Not Found" (404) at link https://www.irishaidfellowships.ie/sites/default/files/styles/media_thumbnail/public/images/case-studies/main-image/jeremiah_sakala_1.jpg?itok=JZkpP2fa (from https://irishaidfellowships.ddev.site/case-studies/jeremiah-sakala)
-19:25:20	Error: 	"Not Found" (404) at link https://www.irishaidfellowships.ie/sites/default/files/styles/media_thumbnail/public/images/case-studies/profile-image/anita.jpg?itok=HhpUs9aN (from https://irishaidfellowships.ddev.site/case-studies/anita-bitegeko)
-19:25:41	Warning: 	HTML file (25392 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/kiden-betty-beneya-enosa
-19:25:46	Warning: 	HTML file (25541 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/doan-thi-dieu-thao
-19:27:29	Warning: 	HTML file (22532 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/phumzile-elizabeth-sokhela
-19:27:39	Warning: 	HTML file (23486 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/khaing-min-thant
-19:27:50	Warning: 	HTML file (21972 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/van-thi-minh-hien
-19:27:56	Warning: 	HTML file (22860 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/denis-odota
-19:28:57	Warning: 	HTML file (23994 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/jane-frances-abodo
-19:29:59	Warning: 	HTML file (22971 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/nguyen-thi-phuong-trang
-19:30:26	Warning: 	HTML file (24557 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/saba-gebremedhin-hagos
-19:30:31	Warning: 	HTML file (22947 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/grace-namukonde
-19:30:40	Warning: 	HTML file (24973 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/beatrice-mateyo-mkanda
-19:30:58	Warning: 	HTML file (23240 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/jacob-ngowi
-19:31:33	Warning: 	HTML file (25462 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/case-studies/eunice-tumwebaze
-19:31:44	Warning: 	HTML file (23651 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-11
-19:31:50	Warning: 	HTML file (23464 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-10
-19:33:02	Warning: 	HTML file (24498 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-7/staying-connected-truong-tuyet-vietnam
-19:33:08	Warning: 	HTML file (25338 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-5/spotlight-education
-19:33:16	Warning: 	HTML file (21606 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-10/christmas-party-2017
-19:33:25	Warning: 	HTML file (22723 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-3/fellows-discuss-irish-aid-priorities
-19:33:35	Warning: 	HTML file (384 bytes) retransferred due to lack of cache: scontent.xx.fbcdn.net/
-19:33:36	Warning: 	Moved Permanently for scontent.xx.fbcdn.net/
-19:33:36	Warning: 	Redirected link is identical because of 'URL Hack' option: scontent.xx.fbcdn.net/ and https://scontent.xx.fbcdn.net/
-19:33:36	Warning: 	File has moved from scontent.xx.fbcdn.net/ to https://scontent.xx.fbcdn.net/
-19:33:36	Warning: 	HTML file (384 bytes) retransferred due to lack of cache: video.xx.fbcdn.net/
-19:33:37	Warning: 	Moved Permanently for video.xx.fbcdn.net/
-19:33:37	Warning: 	Redirected link is identical because of 'URL Hack' option: video.xx.fbcdn.net/ and https://video.xx.fbcdn.net/
-19:33:37	Warning: 	File has moved from video.xx.fbcdn.net/ to https://video.xx.fbcdn.net/
-19:33:55	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://irishaidfellowships.ddev.site/sites/all/libraries/flexslider/fonts/flexslider-icon.eot
-19:33:56	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://irishaidfellowships.ddev.site/sites/all/libraries/flexslider/fonts/flexslider-icon.eot?
-19:34:47	Warning: 	HTML file (33657 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/strands/ideas-strand-2
-19:34:48	Warning: 	HTML file (23969 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-11/introducing-new-palestine-scholarship-programme
-19:34:49	Warning: 	HTML file (21800 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-10/icos-visits-fellows-their-colleges
-19:34:50	Warning: 	HTML file (26559 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-9/staying-connected-jeremiah-ben-mumandwe-sakala
-19:34:51	Warning: 	HTML file (30052 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-8/staying-connected-khaled-quzmar
-19:34:52	Warning: 	HTML file (24410 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-7/zambian-cooking-stick-has-special-place-ireland
-19:34:53	Warning: 	HTML file (24761 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-6/staying-connected-anita-bitegeko
-19:34:54	Warning: 	HTML file (23379 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-5/alumni-and-embassy-help-new-fellows-prepare
-19:34:55	Warning: 	HTML file (24586 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-4/returned-fellows-invited-ideas-exchange
-19:34:56	Warning: 	HTML file (25407 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-3/“building-bond-lasts-lifetime”
-19:34:57	Warning: 	HTML file (20836 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-2/building-online-alumni-network
-19:35:14	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/theaustralian.com.au (from https://www.facebook.com/TheAustralian.com.au/)
-19:35:14	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/news.com.au (from https://www.facebook.com/TheAustralian.com.au/)
-19:35:14	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/kollosche.com.au (from https://www.facebook.com/TheAustralian.com.au/)
-19:35:14	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/awstrack.me (from https://www.facebook.com/TheAustralian.com.au/)
-19:35:16	Error: 	"Not Found" (404) at link https://www.gene.eu/wp-content/uploads/Gene_NationalReport-Ireland.pdf (from https://irishaidfellowships.ddev.site/newsletters/issue-8/irish-aid-launch-new-development-education-strategy)
-19:35:16	Warning: 	HTML file (19937 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/Christmas-party-2016
-19:35:17	Warning: 	Retry after error -2 (Connect Time Out) at link www.eu2013.ie/media/eupresidency/content/documents/HNCJ-conference-papers_final_small.pdf (from https://irishaidfellowships.ddev.site/newsletters/issue-5/dublin-hosts-major-conference-hunger-nutrition-and-climate-justice)
-19:35:17	Warning: 	HTML file (24761 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-4/your-master%E2%80%99s-degree-key
-19:35:18	Warning: 	HTML file (25386 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-3/%E2%80%9Cbuilding-bond-lasts-lifetime%E2%80%9D
-19:37:19	Warning: 	HTML file (23145 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-3/visit-cements-biliateral-links-ireland%E2%80%99s-longest-running-aid-programme
-19:37:20	Warning: 	HTML file (22565 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-1/welcome-minister-peter-power-td
-19:37:21	Warning: 	HTML file (21019 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-1/welcome-sheila-power-icos
-19:37:22	Warning: 	HTML file (25980 bytes) retransferred due to lack of cache: https://irishaidfellowships.ddev.site/newsletters/issue-1/heritage-management-ethiopia-benefits-fellow%E2%80%99s-irish-experience
-19:38:03	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/meta.ai (from https://static.xx.fbcdn.net/rsrc.php/v4idjf4/yC/l/en_US/9ZiNTtJTdVrd7kHCwFi4WO88UrWxWl2QOIykTaW5Ub9SAhaCVoeyp2vyYD13V85S49LuEhJckFaeuPGFz-zOS91KHHCPvXDXu1AVR6T7hL93Q5ChuF4Kzv8K7Gcxeba6lPIsQdaCOtwdoMU1Rdzuzi16ygZhHL-4cEaUoau-LZbAjemuBtyxTlTkLXfRp7tFza-lgQLDczav0pBCHnuqwsrSZAK_mIPORMwCiv2p55HfXW__mMzi95_wmB-512pEQn4HVER6bYupQ0yi8wHGsXcG4xa-CQ.js)
-19:38:03	Error: 	"Not Found" (404) at link https://www.facebook.com/TheAustralian.com.au/Style.set (from https://static.xx.fbcdn.net/rsrc.php/v4i4yx4/yt/l/en_US/MqqFoTUDAX7mlTl05q1tcTsQ6ZPDzwB2cX3pJGAo1TnEyAJSyytnj4a3uA6hP-MaUS8J9K4JwaG4cQohqtGNfQMm3c7r-6lWCJ8BnV2oEnkfuW37jZ0_jfIPYRrBymiZgMRyTLobTzw402Vc1n1_X6cTFHxKdRRDjQ4ton_tQPlEg7S3yF529il25N89b9UdDobpJO2nJ77WpYdRoQTPhL3hADC8Vf4eZvC0udNjHeNz47DTAW_tIHntM9BTpnOkWFGaiuRmGxg-TxgvpBcFEHN7gOIKUP.js)
-19:38:03	Warning: 	Retry after error -2 (Connect Time Out) at link www.eu2013.ie/media/eupresidency/content/documents/HNCJ-conference-papers_final_small.pdf (from https://irishaidfellowships.ddev.site/newsletters/issue-5/dublin-hosts-major-conference-hunger-nutrition-and-climate-justice)
-19:40:02	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.dfa.ie/uploads/documents/DCD/strategy_paper2.pdf)
-19:40:02	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/News.com.au (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/theaustralian.com.au (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/news.com.au (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/kollosche.com.au (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/awstrack.me (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/UBXxML (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/37aIUf (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/Ap3mkj (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/wMCsM7 (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/Ne7Afa (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/aN4Lw8 (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/bDlltS (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/GG03UK (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/YfajRO (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/VPNbRL (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/o305YZ (from https://www.facebook.com/news.com.au/)
-19:40:03	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/m5Dkqb (from https://www.facebook.com/news.com.au/)
-19:40:04	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/q9t3z5 (from https://www.facebook.com/news.com.au/)
-19:40:04	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/Zw276C (from https://www.facebook.com/news.com.au/)
-19:40:04	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/z1Ko1K (from https://www.facebook.com/news.com.au/)
-19:40:04	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/iWie9Q (from https://www.facebook.com/news.com.au/)
-19:40:04	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/z2VEAt (from https://www.facebook.com/news.com.au/)
-19:40:04	Error: 	"Connect Time Out" (-2) after 2 retries at link www.eu2013.ie/media/eupresidency/content/documents/HNCJ-conference-papers_final_small.pdf (from https://irishaidfellowships.ddev.site/newsletters/issue-5/dublin-hosts-major-conference-hunger-nutrition-and-climate-justice)
-19:40:04	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/meta.ai (from https://static.xx.fbcdn.net/rsrc.php/v4idjf4/yo/l/en_US/9ZiNTtJTdVrd7kHCwFi4WO88UrWxWl2QOIykTaW5Ub9SAhaCVoeyp2vyYD13V85S49LuEhJckFaeupRM5NFkEGFAHHCPvXDXu1AVR6T7hL93Q5ChuF4Kzv8K7Gcxeba6lPIsQdaCOtwdoMU1Rdzuzi16ygZhHL-4cEaUoau-LZbAjemuBtyxTlTkLXfRp7tFza-lgQLDczav0pBCHnuqwsrSZAK_mIPORMwCiv2p55HfXW__mMzi95_wmB-512pEQn4HVER6bYupQ0yi8wHGsXcG4xa-CQ.js)
-19:40:04	Error: 	"Not Found" (404) at link https://www.facebook.com/news.com.au/Style.set (from https://static.xx.fbcdn.net/rsrc.php/v4i23w4/y6/l/en_US/mlTl05q1tcTsQ6ZPDzwB2cX3pJGAo1TnE3uA6hP-MaUSRqLMZEQgbeVQohqtGNfQMm3c7r-6lWCJ8RrBymiZgMRyTLobTzw402Vn_tQPlEg7S3yF529il25N82nJ77WpYdRoQTPhL3hADC8EygFLvTbBXqTBt_BSMmlYejHeNz47DTAWnOkWFGaiuRmH1vFq71BZL-F9k0ErWkA5-.js)
+11:47:25	Warning: 	Cache: error trying to read the cache: bad zip file
+11:47:26	Warning: 	HTML file (28997 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/
+12:00:37	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/sites/default/files/are-you-eligible/ireland_fellows_programme_asia_2024-25_stage_1_guidance_note.html.tmp already exists
+12:17:07	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/rsrc.php/y1/r/ay1hV6OlegS.ico.tmp already exists
+12:17:09	Warning: 	HTML file (1252 bytes) retransferred due to lack of cache: https://www.facebook.com/data/manifest/?is_workplace_mobile_pwa_dogfooding=0
+12:17:16	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/rsrc.php/v5/yl/l/0,cross/ANDWCPG3tdM.css.tmp already exists
+12:20:07	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/wp-content/uploads/Gene_NationalReport-Ireland.html.tmp already exists
+12:23:44	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/media/eupresidency/content/documents/HNCJ-conference-papers_final_small.pdf.tmp already exists
+12:26:25	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): irishaidfellowships.ddev.site/sites/all/modules/contrib/flexslider/assets/js/flexslider.load.js?t6drw5
+12:26:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://consent.cookiebot.com/cab35725-2771-4515-81a5-a58ec8c0b30b/cd.js
+12:27:04	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/sites/default/files/styles/case_study_profile/public/images/case-studies/profile-image/samuel-malasa-banda-profilecc1b.jpg.tmp already exists
+12:27:12	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/sites/default/files/styles/case_study_main_image/public/images/case-studies/main-image/samuel-malasa-banda-main2220.jpg.tmp already exists
+12:27:19	Warning: 	HTML file (25855 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/linny-kachama
+12:27:22	Warning: 	HTML file (25093 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/elisa-castrillon-palacio
+12:27:25	Warning: 	HTML file (27302 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/airton-hernany-lima-jesus
+12:27:28	Warning: 	HTML file (22757 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/international-womens-day-2024
+12:27:30	Warning: 	HTML file (1252 bytes) retransferred due to lack of cache: https://www.facebook.com/data/manifest/?is_workplace_mobile_pwa_dogfooding=0
+12:27:32	Warning: 	HTML file (20648 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/privacy-policy
+12:27:32	Warning: 	engine: warning: temporary file /home/dan/weby/static/iaf2/data/manifest/index1e5b.html.tmp already exists
+12:27:35	Warning: 	HTML file (21562 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/overview/role-icos
+12:27:41	Warning: 	HTML file (35296 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/strands/ireland-fellows-programme-asia
+12:27:48	Warning: 	HTML file (39256 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/casement-fellowship
+12:27:54	Warning: 	HTML file (43297 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/strands/ireland-fellows-programme-latin-america
+12:28:01	Warning: 	HTML file (39742 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/strands/seán-macbride-fellowship
+12:28:05	Warning: 	HTML file (28939 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/beatrice-monica-chikusa
+12:28:06	Warning: 	HTML file (22254 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/alumni/alumni-facebook-group
+12:28:07	Warning: 	HTML file (28720 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/rumbidzai-gandiwa
+12:28:08	Warning: 	HTML file (30076 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/aliyu-usman-0
+12:28:09	Warning: 	HTML file (27586 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/euclinton-ancheldásio-foliche
+12:28:10	Warning: 	HTML file (25706 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/dismas-ndayikengurukiye-0
+12:28:11	Warning: 	HTML file (25043 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/jitendra-sinha
+12:28:12	Warning: 	HTML file (29889 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/naboth-namara
+12:28:13	Warning: 	HTML file (28442 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/maha-abdallah
+12:28:14	Warning: 	HTML file (27184 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/twapashagha-mable-twea
+12:28:15	Warning: 	HTML file (29078 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/getrude-dadirai-gwenzi
+12:28:16	Warning: 	HTML file (26943 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/jeremiah-sakala
+12:28:17	Warning: 	HTML file (24656 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/truong-tuyet
+12:28:18	Warning: 	HTML file (24900 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/anita-bitegeko
+12:28:19	Warning: 	HTML file (29925 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/khaled-quzmar
+12:28:20	Warning: 	HTML file (24977 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/dr-belaynesh-yifru
+12:28:21	Warning: 	HTML file (25504 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/agnes-alobo
+12:28:22	Warning: 	HTML file (28326 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/victor-makasa
+12:28:23	Warning: 	HTML file (25815 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/rashid-sesay
+12:28:24	Warning: 	HTML file (26327 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/sibongile-mtungwa
+12:28:25	Warning: 	HTML file (26605 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/eiman-fadul
+12:28:26	Warning: 	HTML file (27306 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/dr-zubair-kabir
+12:28:27	Warning: 	HTML file (26778 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/peter-balimunsi
+12:28:28	Warning: 	HTML file (28047 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/ricardo-paredes
+12:28:29	Warning: 	HTML file (25005 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/colleges/course-eligibility
+12:28:30	Warning: 	HTML file (26265 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/sean-yates
+12:28:31	Warning: 	HTML file (125757 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies
+12:28:33	Warning: 	HTML file (28115 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/julie-vatu
+12:28:34	Warning: 	HTML file (33718 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters
+12:28:35	Warning: 	HTML file (25769 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/solomon-belete-tekola
+12:28:36	Warning: 	HTML file (25242 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/rachel-bikhole
+12:28:37	Error: 	"Not Found" (404) at link irishaidfellowships.ddev.site/sites/default/files/are-you-eligible/ireland_fellows_programme_asia_2024-25_stage_1_guidance_note.pdf (from irishaidfellowships.ddev.site/strands/ireland-fellows-programme-asia)
+12:28:37	Warning: 	HTML file (27173 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/doan-thi-dieu-thao
+12:28:38	Warning: 	HTML file (26567 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/catherine-georgina-thomas
+12:28:39	Warning: 	HTML file (24191 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/dismas-ndayikengurukiye
+12:28:40	Warning: 	HTML file (25911 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/justine-van-rooyen
+12:28:41	Warning: 	HTML file (39750 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/strands/se%C3%A1n-macbride-fellowship
+12:28:42	Warning: 	HTML file (26873 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/yumi-casualina-nafe
+12:28:43	Warning: 	HTML file (25114 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/khaing-min-thant
+12:28:44	Warning: 	HTML file (26447 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-7/uganda-irish-alumni-association
+12:28:45	Warning: 	HTML file (27594 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/euclinton-ancheld%C3%A1sio-foliche
+12:28:46	Warning: 	HTML file (32036 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/marie-krestaline-juliana-dedans
+12:28:47	Warning: 	HTML file (29606 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/mathew-komabo
+12:28:48	Warning: 	HTML file (26849 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/eliana-rocio-gonzalez-davalos
+12:28:49	Warning: 	HTML file (24448 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/thioune-arame-fall
+12:28:50	Warning: 	HTML file (26757 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/case-studies/elza-robert
+12:28:51	Warning: 	HTML file (25010 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-10
+12:28:52	Warning: 	HTML file (26197 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-7/staying-connected-truong-tuyet-vietnam
+12:28:53	Warning: 	HTML file (27151 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-5/spotlight-education
+12:28:54	Warning: 	HTML file (23270 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-10/christmas-party-2017
+12:28:55	Warning: 	HTML file (24420 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-3/fellows-discuss-irish-aid-priorities
+12:28:57	Warning: 	HTML file (464217 bytes) retransferred due to lack of cache: https://www.facebook.com/photo.php?fbid=1904582789816664&set=a.1882884268653183.1073741828.100007948835320&type=3&theater
+12:28:58	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.facebook.com/photo.php?fbid=1904582789816664&set=a.1882884268653183.1073741828.100007948835320&type=3&theater (from irishaidfellowships.ddev.site/case-studies/mekbib-mengesha-kassahun)
+12:28:58	Warning: 	HTML file (464217 bytes) retransferred due to lack of cache: https://www.facebook.com/photo.php?fbid=1904582789816664&set=a.1882884268653183.1073741828.100007948835320&type=3&theater
+12:28:58	Warning: 	HTML file (28019 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-11/fellows-meet-minister-state-ciaran-cannon-td
+12:29:00	Warning: 	HTML file (25617 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-11/introducing-new-palestine-scholarship-programme
+12:29:01	Warning: 	HTML file (23472 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-10/icos-visits-fellows-their-colleges
+12:29:02	Warning: 	HTML file (28153 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-9/staying-connected-jeremiah-ben-mumandwe-sakala
+12:29:03	Warning: 	HTML file (31754 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-8/staying-connected-khaled-quzmar
+12:29:04	Warning: 	HTML file (26063 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-7/zambian-cooking-stick-has-special-place-ireland
+12:29:05	Warning: 	HTML file (26451 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-6/staying-connected-anita-bitegeko
+12:29:06	Warning: 	HTML file (25082 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-5/alumni-and-embassy-help-new-fellows-prepare
+12:29:07	Warning: 	HTML file (26274 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-4/returned-fellows-invited-ideas-exchange
+12:29:09	Warning: 	HTML file (27008 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-3/“building-bond-lasts-lifetime”
+12:29:10	Warning: 	HTML file (22515 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-2/building-online-alumni-network
+12:29:11	Warning: 	Warning: store text/css without scan: /home/dan/weby/static/iaf2/rsrc.php/v5/yP/l/0,cross/nciPwjIJ2US8MoCOXOy45ifgQe914iiBfONMKn3YhINqdkXzv8wMe2LU49pVNahkCk.css
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4/yb/r/deRsldL004W.js
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4iZ-e4/y5/l/en_US-j/jGqJEk8YCbl7qvSvS4SYPAY1GWMs46dYsfQWxLFOT7VDWVz3gPmjkaJx95FJFi2hTGFzZvVD0eeaKgbqXzkXmKdRi8aikc9DSKdNV4HD7e-g9qxwHfQDRF3kx-dmeYNy8nXzSmwyJDvHQ0nQ0ifAUkTn7k5gL3veq_Sym1sQPwFYIM0hrnH
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4iul64/yX/l/en_US-j/YvtvNRqDJoqrWXrpkg0ui7fAozIMNFBkkykMmHP6hUFMY_xMmqWm453AygNapnrhx08khMwOkiCQDLwod35a3Itzx3_q3xzmqMdQB6nDZ7REjjB2WjbxD7ljEYg7QnINbUiYBhRuYYy_sRt30Wg6IE2Puex4dHadDTM3svpF2yZqgs3Q2hr
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4i2tZ4/yw/l/en_US-j/fRyBls9fM0O8lU6otFx76g1dPbf3LYHB5iqsqPG4FJejGKmN1syzsTSUpf0p6F4sETq37pW2SxIrlldnxyleOWOgIXD8QAfLjbWx_lIF18rynX.js
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4ic834/yX/l/en_US-j/PjHePOzSy2X.js
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4iLEz4/yJ/l/en_US-j/tIRAbzV9SZhaEqFFNHCtlToRnoeQw8j3txUwBTcWz4Yit4o6xu18BEeeHrH3BfvCLq2jtbyEABYcDVVGtmKrkFHKeQctSyCn2wHt1km2FrE9cn4CWRjy3sLWWToiA0okMZE882mCPvwLvgQjRv3fmupIradE97UmQ40UOnulCdFVIRIHKZE
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4i7mS4/ys/l/en_US-j/vBzS06ru_uM.js
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4ig1u4/y3/l/en_US-j/r_tWu46cPuu.js
+12:29:11	Warning: 	Warning: store application/x-javascript without scan: /home/dan/weby/static/iaf2/rsrc.php/v4ig4E4/yK/l/en_US-j/AwlfAVLcpeA.js
+12:29:11	Warning: 	Warning: store text/css without scan: /home/dan/weby/static/iaf2/rsrc.php/v5/yl/l/0,cross/ANDWCPG3tdM.css
+12:29:11	Warning: 	HTML file (23583 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-9/irish-aid-fellowship-st-patrick%E2%80%99s-day-party
+12:29:12	Error: 	"Not Found" (404) at link https://www.gene.eu/wp-content/uploads/Gene_NationalReport-Ireland.pdf (from irishaidfellowships.ddev.site/newsletters/issue-8/irish-aid-launch-new-development-education-strategy)
+12:29:12	Warning: 	HTML file (26557 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-8/protecting-world%E2%80%99s-endangered-mountain-gorillas
+12:29:13	Warning: 	HTML file (21535 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/Christmas-party-2016
+12:29:14	Warning: 	Retry after error -2 (Connect Time Out) at link www.eu2013.ie/media/eupresidency/content/documents/HNCJ-conference-papers_final_small.pdf (from irishaidfellowships.ddev.site/newsletters/issue-5/dublin-hosts-major-conference-hunger-nutrition-and-climate-justice)
+12:29:14	Warning: 	HTML file (26490 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-4/your-master%E2%80%99s-degree-key
+12:29:15	Warning: 	HTML file (26980 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-3/%E2%80%9Cbuilding-bond-lasts-lifetime%E2%80%9D
+12:31:16	Warning: 	HTML file (24951 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-3/visit-cements-biliateral-links-ireland%E2%80%99s-longest-running-aid-programme
+12:31:17	Warning: 	HTML file (24215 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-1/welcome-minister-peter-power-td
+12:31:18	Warning: 	HTML file (22686 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-1/welcome-sheila-power-icos
+12:31:20	Warning: 	HTML file (27749 bytes) retransferred due to lack of cache: irishaidfellowships.ddev.site/newsletters/issue-1/heritage-management-ethiopia-benefits-fellow%E2%80%99s-irish-experience
+12:31:21	Warning: 	Retry after error -2 (Connect Time Out) at link www.eu2013.ie/media/eupresidency/content/documents/HNCJ-conference-papers_final_small.pdf (from irishaidfellowships.ddev.site/newsletters/issue-5/dublin-hosts-major-conference-hunger-nutrition-and-climate-justice)
+12:32:52	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.dfa.ie/uploads/documents/DCD/strategy_paper2.pdf)
+12:33:21	Error: 	"Connect Time Out" (-2) after 2 retries at link www.eu2013.ie/media/eupresidency/content/documents/HNCJ-conference-papers_final_small.pdf (from irishaidfellowships.ddev.site/newsletters/issue-5/dublin-hosts-major-conference-hunger-nutrition-and-climate-justice)
 
-HTTrack Website Copier/3.49-5 mirror complete in 43 minutes 33 seconds : 898 links scanned, 1194 files written (330198213 bytes overall) [161110458 bytes received at 61657 bytes/sec], 37986083 bytes transferred using HTTP compression in 388 files, ratio 25%, 1.1 requests per connection
-(53 errors, 89 warnings, 0 messages)
+HTTrack Website Copier/3.49-5 mirror complete in 45 minutes 56 seconds : 743 links scanned, 1122 files written (311290669 bytes overall) [156032559 bytes received at 56615 bytes/sec], 16729650 bytes transferred using HTTP compression in 302 files, ratio 25%, 1.0 requests per connection
+(4 errors, 110 warnings, 0 messages)
