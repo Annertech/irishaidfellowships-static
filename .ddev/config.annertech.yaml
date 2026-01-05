@@ -1,0 +1,23 @@
+#ddev-generated
+#annertech-ddev
+hooks:
+  pre-start:
+    - exec-host: "if [[ $(grep 'imagemagick' composer.json) ]]; then cp .ddev/scripts/ddev/web-build/Dockerfile.imagemagick .ddev/web-build; fi" # Use imagemagick7 in DDEV
+  post-start:
+    - exec-host: "ddev githooks"
+    - exec-host: "if [ ! $ANNERTECH_LOCAL_DEV ]; then ddev auth ssh; fi"
+    - exec-host: "ddev check-annertech-ddev"
+    - exec-host: "ddev devmode on"
+  post-import-db:
+    - exec: "drush cache:rebuild"
+    - exec: "drush sql:sanitize -y"
+    - exec-host: "ddev devmode on"
+    - exec: "if [[ $(grep 'stage_file_proxy' composer.json) ]]; then drush en stage_file_proxy -y; fi"
+    - exec: "drush user:login"
+  post-pull:
+    - exec: "rm .ddev/.downloads/*.sql.gz"
+    - exec: "echo 'Temporary dumps removed'"
+    # Since we are removing the DB dump, we'll have to download it again for any test.
+    # To save bandwidth and time we can take a snapshot of the sanitized state with DDEV.
+    # - exec-host: "ddev snapshot --name fresh --cleanup --yes"
+    # - exec-host: "ddev snapshot --name fresh"

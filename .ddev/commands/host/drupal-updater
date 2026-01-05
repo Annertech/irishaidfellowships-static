@@ -1,0 +1,155 @@
+#!/usr/bin/env bash
+#ddev-generated
+#annertech-ddev
+
+## Description: Update Drupal modules and core, optionally committing each step
+## Usage: drupal-updater
+## Example: "ddev drupal-updater -cugado" \n"ddev drupal-updater drupal/module-name --commit-steps" \n"ddev drupal-updater --all --with-core --commit-steps" \n"ddev drupal-updater --dry-run --omit-snapshot"
+## Flags: [{"Name":"commit-steps","Shorthand":"g","Usage":"Create a git commit for each update step","Type":"bool"},{"Name":"with-core","Shorthand":"c", "Usage":"Include core updates in --all","Type":"bool"},{"Name":"all","Shorthand":"a","Usage":"Update all modules","Type":"bool"},{"Name":"dry-run","Usage":"Run the update steps without making changes","Type":"bool"},{"Name":"omit-snapshot", "Shorthand": "o", "Usage":"Omit snapshot creation before updating","Type":"bool"},{"Name":"update-changelog","Shorthand":"u","Usage":"Update the CHANGELOG.md with the latest changes","Type":"bool"},{"Name":"run-db-updates","Shorthand":"d","Usage":"Run database updates between module updates","Type":"bool"}]
+## ProjectTypes: drupal,drupal11,drupal10
+
+## This script is brought to you by:
+## - Valentin Zsigmond (drupal.org/u/vzsigmond)
+## - Bill Seremetis (drupal.org/u/bserem)
+## - Annertech (annertech.com)
+
+CHANGELOG_FILE="CHANGELOG.md"
+CHANGELOG_CONTENT=""
+
+# Determine docroot or fallback to web
+if [ -z ${DDEV_DOCROOT+x} ]; then
+  PROJECT_DOCROOT=web # Sensible default value
+else
+  PROJECT_DOCROOT=$DDEV_DOCROOT
+fi
+
+# Function to create a snapshot
+create_snapshot() {
+  if [ -z "$omit_snapshot" ]; then
+    ddev snapshot
+  fi
+}
+
+# Function to ensure the current branch is recreated from the from-branch
+ensure_from_branch() {
+  local FROM_BRANCH_NAME=$1
+  local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+  if [ "$CURRENT_BRANCH" != "$FROM_BRANCH_NAME" ]; then
+    echo "Resetting current branch $CURRENT_BRANCH from $FROM_BRANCH_NAME"
+    # Reset the branch from the target branch
+    git clean -f -d
+    git fetch origin
+    git reset --hard "origin/$FROM_BRANCH_NAME"
+  else
+    echo "Current branch is already $FROM_BRANCH_NAME, nothing to do."
+  fi
+}
+
+# Function to update a single module
+update_module() {
+  local MODULE_NAME=$1
+
+  # Get the current version before updating
+  local FROM_VERSION
+  FROM_VERSION=$(ddev composer show "$MODULE_NAME" | grep versions | awk '{print $4}')
+
+  if [ "$dry_run" = true ]; then
+    ddev composer update "$MODULE_NAME" --with-all-dependencies --dry-run
+  else
+    # Run the update
+    ddev composer update "$MODULE_NAME" --with-all-dependencies --bump-after-update --no-progress --quiet
+
+    # Get the updated version after the update
+    local MODULE_VERSION
+    MODULE_VERSION=$(ddev composer show "$MODULE_NAME" | grep versions | awk '{print $4}')
+
+    # Check if the version has changed
+    if [ "$FROM_VERSION" = "$MODULE_VERSION" ]; then
+      echo "No update needed for $MODULE_NAME. The version is already $MODULE_VERSION."
+    else
+      # Run drush commands if there was an update
+      if [ "$updb" = true ]; then
+        ddev drush updb -y
+        ddev drush cex -y
+      fi
+
+      echo -e "- $MODULE_NAME updated from $FROM_VERSION to $MODULE_VERSION\n$(cat $CHANGELOG_FILE)" > $CHANGELOG_FILE
+
+      # Commit if --commit-steps flag is provided
+      if [ "$commit_steps" = true ]; then
+        git add -u
+        git add vendor/
+        # Strip drupal prefix to get installation path
+        git add ${PROJECT_DOCROOT}/modules/contrib${MODULE_NAME#drupal}
+        git commit -m "$MODULE_NAME updated from $FROM_VERSION to $MODULE_VERSION (#drupal-updater)"
+      fi
+    fi
+  fi
+}
+
+# Function to update all modules and core based on flags
+update_all_modules() {
+  local MODULES
+  MODULES=$(ddev composer outdated --direct --minor-only | grep "drupal/" | grep -v "drupal/core" | awk '{print $1}')
+  local CORE_PACKAGES
+  CORE_PACKAGES=$(ddev composer show | grep "drupal/core" | awk '{print $1}')
+
+  for MODULE in $MODULES; do
+    echo "Updating: " $MODULE
+    update_module "$MODULE"
+  done
+
+  if [ "$with_core" = true ]; then
+    for CORE_PACKAGE in $CORE_PACKAGES; do
+      update_module "$CORE_PACKAGE"
+    done
+  fi
+
+  DATE=$(date +"%Y-%m-%d")
+  sed -i "1s/^/# Date: $DATE\n\n/" "$CHANGELOG_FILE"
+
+  # if [ "$commit_steps" != true ]; then
+  #   git add -A
+  #   git commit -m "Updated all applicable Drupal modules and core packages"
+  # fi
+}
+
+# Parse flags and arguments
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -*) # Handle grouped short options like -cugado
+      OPTS="${1:1}" # Remove leading dash
+      for (( i=0; i<${#OPTS}; i++ )); do
+        opt="${OPTS:$i:1}"
+        case $opt in
+          c) with_core=true ;;
+          u) update_changelog=true ;;
+          g) commit_steps=true ;;
+          a) action="update_all" ;;
+          d) updb=true ;;
+          o) omit_snapshot=true ;;
+          *) echo "WARN: Unknown option -$opt" ;;
+        esac
+      done
+      shift
+      ;;
+    --commit-steps) commit_steps=true; shift ;;
+    --with-core) with_core=true; shift ;;
+    --all) action="update_all"; shift ;;
+    --dry-run) dry_run=true; shift ;;
+    --omit-snapshot) omit_snapshot=true; shift ;;
+    --update-changelog) update_changelog=true; shift ;;
+    --run-db-updates) updb=true; shift ;;
+    --) shift; break ;;
+    *) break ;;
+  esac
+done
+
+if [ "$action" = "update_all" ]; then
+  create_snapshot
+  update_all_modules
+else
+  create_snapshot
+  update_module "$1"
+fi

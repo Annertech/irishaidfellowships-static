@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+#ddev-generated
+
+# Regex patterns
+COMMIT_PATTERN="^T-[0-9]*"
+BRANCH_PATTERN="[0-9]{6}_(T-[0-9]{8})"
+
+# Read the commit message
+commit_message=$(cat "$1")
+
+# Ignore merge commits
+if git rev-parse -q --verify MERGE_HEAD >/dev/null 2>&1; then
+  exit 0
+fi
+
+# Check if the commit message starts with the desired pattern
+if [[ $commit_message =~ $COMMIT_PATTERN ]]; then
+  exit 0
+fi
+
+# Get the current branch name
+branch_name=$(git rev-parse --abbrev-ref HEAD)
+
+# Try to extract the pattern from the branch name
+if [[ $branch_name =~ $BRANCH_PATTERN ]]; then
+  ticket_id="${BASH_REMATCH[1]}"
+  # Prepend the ticket ID to the commit message
+  echo "$ticket_id $commit_message" > "$1"
+  exit 0
+else
+  echo "Error: Commit message must start with the pattern 'T-0000000' or the branch name must follow 'YYYYMM_T-XXXXXXXX__description' You can opt out of this rule by passing the '--no-verify' argument in the git commit command."
+  exit 1
+fi

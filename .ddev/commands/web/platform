@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#ddev-generated
+#annertech-ddev
+
+## Description: Run upsun (ex platform.sh) cli inside the web container
+## Usage: platform [args]
+## Example: "ddev platform drush uli"
+
+upsun "$@"
