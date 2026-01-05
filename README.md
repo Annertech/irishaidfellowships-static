@@ -62,3 +62,8 @@ unless you want to contribute back to the upstream project.
 [index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
 [userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
 [projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+
+## New Content
+
+**Case Study / Alumni**
+Copy and edit docs/case-studies/_NEW_CASE_STUDY_TEMPLATE.html_ to create a new case study
