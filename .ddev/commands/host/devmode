@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+#ddev-generated
+#annertech-ddev
+
+## Description: Easily change between development mode and live mode (aggregation, caching etc). Default setting is `off` at the start of every project.
+## Usage: devmode [off|on]
+## Example: "ddev devmode on"
+## ProjectTypes: drupal,drupal10,drupal11
+
+case $@ in
+  off)
+    echo -e "Configuring environment for \e[1;0;41m caching and performance \e[0m"
+    echo -e "CSS/JS aggregation enabled, Twig debug settings disabled."
+    cp "${DDEV_APPROOT}/.ddev/settings.local.perfmode.php" "${DDEV_APPROOT}/${DDEV_DOCROOT}/sites/default/settings.local.php"
+    ddev exec drush php:eval "\Drupal::keyValue('development_settings')->setMultiple(['disable_rendered_output_cache_bins' => FALSE, 'twig_debug' => FALSE, 'twig_cache_disable' => FALSE]);";
+    ddev exec drush cache:rebuild;
+    ;;
+  on)
+    echo -e "Configuring environment for \e[1;0;45m development \e[0m"
+    echo -e "CSS/JS aggregation disabled, Twig debug settings enabled."
+    cp "${DDEV_APPROOT}/.ddev/settings.local.devmode.php" "${DDEV_APPROOT}/${DDEV_DOCROOT}/sites/default/settings.local.php"
+    ddev exec drush php:eval "\Drupal::keyValue('development_settings')->setMultiple(['disable_rendered_output_cache_bins' => TRUE, 'twig_debug' => TRUE, 'twig_cache_disable' => TRUE]);";
+    ddev exec drush cache:rebuild;
+    ;;
+  *)
+    echo "Please set mode (eg: 'ddev devmode on')"
+esac

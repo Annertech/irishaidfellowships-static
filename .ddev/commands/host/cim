@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#ddev-generated
+#annertech-ddev
+
+## Description: Import config for the current Drupal project.
+## Usage: cim
+## Example: "ddev cim"
+## ProjectTypes: drupal,drupal10, drupal11
+
+ddev drush cim -y

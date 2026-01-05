@@ -1,0 +1,28 @@
+#!/bin/sh
+#ddev-generated
+#annertech-ddev
+
+## Description: Run behat inside the web container
+## Usage: behat [flags] [args]
+## Example: "ddev behat --tags ~wip"
+
+# Check if the tests/behat directory exists
+if [ ! -d "tests/behat" ]; then
+    echo
+    echo "\033[38;5;208mError: Directory tests/behat does not exist.\033[0m"
+    echo "\033[38;5;208mAre Behat tests defined for this project?\033[0m"
+    echo
+    exit 1
+fi
+
+# Navigate to the behat directory
+cd tests/behat
+
+# Check if the behat binary exists
+if [ ! -f "bin/behat" ]; then
+    echo "Behat binary not found. Running 'composer install'..."
+    composer install
+fi
+
+# Run behat with the provided flags/arguments
+bin/behat "$@"

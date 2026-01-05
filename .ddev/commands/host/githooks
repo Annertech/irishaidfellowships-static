@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#ddev-generated
+#annertech-ddev
+
+## Description: Install git hooks to your project
+## Usage: githooks
+## Example: "ddev githooks"
+
+echo "Installing git hooks"
+cp -v .ddev/scripts/git-hooks/* .git/hooks
