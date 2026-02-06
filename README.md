@@ -66,4 +66,5 @@ unless you want to contribute back to the upstream project.
 ## New Content
 
 **Case Study / Alumni**
-Copy and edit docs/case-studies/_NEW_CASE_STUDY_TEMPLATE.html_ to create a new case study
+- Copy and edit docs/case-studies/_NEW_CASE_STUDY_TEMPLATE.html_ to create a new case study
+- Add new case study to docs/case-studies.html
