@@ -2028,7 +2028,7 @@ tr.selected td {
     width: 25%;
     margin-left: 16.66667%;
     margin-right: -41.66667%;
-    margin-left: 25%;
+    margin-left: 29%;
   }
 }
 
@@ -2513,7 +2513,16 @@ tr.selected td {
  */
 /* line 6, ../sass/components/blocks/_block-bean-contact-footer.scss */
 #block-bean-contact-details-footer img {
-  margin-top: 24px;
+  width: 320px;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin-top: 55px;
+}
+@media (max-width: 480px) {
+  #block-bean-contact-details-footer img {
+    margin: 55px auto 0;
+  }
 }
 
 /* Views */
